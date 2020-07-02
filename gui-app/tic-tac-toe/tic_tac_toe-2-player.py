@@ -61,6 +61,7 @@ def getPlayerName():
         return 'Player2'
 screen=Tk()
 screen.title("Tic Tac Toe in Python")
+screen.iconbitmap('icon.ico')
 label = Label(screen, 
 		 text="Let's Start : Player1",
 		 fg = "orange",

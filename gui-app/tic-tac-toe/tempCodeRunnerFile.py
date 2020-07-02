@@ -1,0 +1,1 @@
+screen.iconbitmap('icon.ico')

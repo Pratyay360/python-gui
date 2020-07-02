@@ -98,6 +98,7 @@ def reg(i):
 
 screen=tk.Tk()
 screen.title("Tic Tac Toe in Python")
+screen.iconbitmap('icon.ico')
 label = Label(screen, 
 		 text="Let's Start : Computer",
 		 fg = "orange",
