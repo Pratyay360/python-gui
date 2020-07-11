@@ -35,10 +35,7 @@ w1 = tk.Label(c2, text="Enter Number : ")
 w1.pack()
 e = tk.Entry(c2)#e = entry no 1
 e.pack()
-#w2 = tk.Label(c2, text="Enter Power : ")
-#w2.pack()
-#e1 = tk.Entry(c2)#e = entry no 2
-#e1.pack()
+
 toolbar = tk.Frame(c2)
 b = tk.Button(toolbar, text="SUBMIT", width=9, command=lambda: save(e))
 b.pack(side='left', padx=2, pady=2)
